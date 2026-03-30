@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+
+# Environment
+.env
+backend/.env
+frontend/.env.local
+!backend/.env.example
+!frontend/.env.local.example
+
+# Runtime data
+backend/data/
+backend/cookies.txt
+
+# OS
+.DS_Store
